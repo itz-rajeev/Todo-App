@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <title> Todo App</title>
+</head>
+<body>
+    <h1 id="main-heading">TODO LIST</h1>
+    <div class="main-div">
+        <div class="grid-container">
+            <input id="todo-input" type="text" placeholder="Enter TODO Here">
+            <input id="todo-date" type="date">
+            <select id="todo-priority">
+                <option value="low">Low Priority</option>
+                <option value="medium">Medium Priority</option>
+                <option value="high">High Priority</option>
+            </select>
+            <input id="todo-tags" type="text" placeholder="Enter Tags">
+            <button class="btn-add" id="btn-add">Add</button>
+        </div>
+        <div class="todo-container"></div>
+    </div>
+    <footer class="footer">
+        <p>Created by Rajeev Kumar &copy; 2025</p>
+    </footer>
+    <script src="todo.js"></script>
+</body>
+</html>
